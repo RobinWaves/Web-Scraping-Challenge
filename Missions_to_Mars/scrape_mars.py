@@ -41,9 +41,9 @@ def scrape():
     tables = pd.read_html(url)
     
     # Convert the data to a HTML table string
-    mars_df = pd.DataFrame(tables[1])
-    mars_df.columns = ['Profile Item', 'Fact']
-    mars_df.set_index('Profile Item', inplace=True)
+    mars_df = pd.DataFrame(tables[0])
+    mars_df.columns = ['Description', 'Mars', 'Earth']
+    mars_df.set_index('Description', inplace=True)
     # Generate html table
     mars_table = mars_df.to_html()
     # Clean up table - strip newlines
@@ -74,7 +74,7 @@ def scrape():
             html = browser.html
             soup = BeautifulSoup(html, 'html.parser')
             
-            images = soup.find_all('div', class_='description')
+            images = soup.find_all('div', class_='downloads')
         
             for image in images:
                 full_image = image.find('a')['href']
@@ -82,7 +82,9 @@ def scrape():
                 hemisphere_image_urls.append(hemi_dict)
         except:
             print("Scraping Complete")
-    
+
+    print(hemisphere_image_urls)
+
     # Store data in a dictionary
     mars_data = {
         "news_title": news_title,
@@ -96,5 +98,4 @@ def scrape():
 
     # Return results
     return mars_data
-    
 
