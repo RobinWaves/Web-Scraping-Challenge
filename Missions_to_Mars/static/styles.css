@@ -23,6 +23,7 @@ p {
 .img-with-text {
     font-family: "Georgia", Times, serif;
     text-align: center;
+    text-decoration: underline;
     width: 300px; 
     margin: 10px;
 }
