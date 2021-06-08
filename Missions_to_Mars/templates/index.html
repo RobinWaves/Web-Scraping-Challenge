@@ -58,7 +58,9 @@
         <div class="row">
           {% for hemi in mars_doc.hemisphere_image_urls %} 
           <div class="img-with-text">
-              <img src="{{ hemi.img_url }}" alt="{{ hemi.title }}" style="width:300px;height:300px;">
+              <a href="{{ hemi.img_url }}">
+                <img src="{{ hemi.img_url }}" class="select" alt="{{ hemi.title }}" style="width:300px;height:300px;">
+              </a>
               <p> {{hemi.title}} </p> 
           </div>
           {% endfor %}
