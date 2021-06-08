@@ -31,6 +31,13 @@ p {
     display: block;
     margin: 0 auto;  
 }
+
+.select:hover {
+    border-style: solid;
+    border-color: #e67e00;
+    border-width: thick;
+}
+
 .container {
     margin-bottom: 30px;
 }
@@ -50,9 +57,4 @@ td {
     overflow: hidden;
     white-space: nowrap;
     text-align: center;
-}
-.select:hover {
-    border-style: solid;
-    border-color: #e67e00;
-    border-width: thick;
 }
