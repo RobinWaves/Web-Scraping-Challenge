@@ -24,12 +24,12 @@ p {
     font-family: "Georgia", Times, serif;
     text-align: center;
     text-decoration: underline;
-    width: 300px; 
+    width: 250px;
     margin: 10px;
 }
 
 .img-with-text img {
-    display: block;
+    display: block; 
     margin: 0 auto;  
 }
 

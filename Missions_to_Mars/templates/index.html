@@ -53,24 +53,22 @@
       </div>
     </div> <!-- Close Mars Featured Image and Table container -->
       
-      <!-- Mars Hemispheres -->
+    <!-- Mars Hemispheres -->
     <div class="container-fluid">
-        <h2>Mars Hemispheres</h2>
-        <hr>
-        <div class="row">
-          {% for hemi in mars_doc.hemisphere_image_urls %} 
+      <h2>Mars Hemispheres</h2>
+      <hr>
+      <div class="row">
+        {% for hemi in mars_doc.hemisphere_image_urls %} 
           <div class="img-with-text">
-              <a href="{{ hemi.img_url }}">
-                <img src="{{ hemi.img_url }}" class="select" alt="{{ hemi.title }}" style="width:300px;height:300px;">
-              </a>
-              <p> {{hemi.title}} </p> 
+            <a href="{{ hemi.img_url }}">
+              <img src="{{ hemi.img_url }}" class="select" alt="{{ hemi.title }}" style="width:250px;height:250px;">
+            </a>
+            <p> {{hemi.title}} </p> 
           </div>
-          {% endfor %}
-        </div>
+        {% endfor %}
+      </div>
     </div> <!-- Close Hemispheres container-fluid -->
-
   </div> <!-- Close container-fluid -->
-
 </body>
 
 </html>
