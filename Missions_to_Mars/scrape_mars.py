@@ -83,8 +83,6 @@ def scrape():
         except:
             print("Scraping Complete")
 
-    print(hemisphere_image_urls)
-
     # Store data in a dictionary
     mars_data = {
         "news_title": news_title,

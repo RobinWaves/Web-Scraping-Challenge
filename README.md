@@ -1,9 +1,9 @@
 # Web-Scraping-Challenge
 
 ## Mission to Mars
+***
 
-
-In this assignment, you will build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines what you need to do.
+This assignment builds a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
 
 4. Add your notebook files to this folder as well as your flask app.
 

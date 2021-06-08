@@ -3,15 +3,18 @@
     color: #e67e00;
     font-size: 80px;
 }
+
 h2 {
     font-family: "Georgia", Times, serif;
     font-weight: bold;
 }
+
 h4 {
     font-family: "Georgia", Times, serif;
     font-weight: bold;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
+
 p {
     font-family: "Georgia", Times, serif;
     margin-bottom: 30px; 
@@ -21,7 +24,7 @@ p {
     font-family: "Georgia", Times, serif;
     text-align: center;
     width: 300px; 
-    margin: 20px;
+    margin: 10px;
 }
 
 .img-with-text img {
@@ -30,4 +33,21 @@ p {
 }
 .container {
     margin-bottom: 30px;
+}
+
+table {
+    table-layout: inherit;
+    width: 100%;
+    border: 1px solid #e67e00;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    border: 1px solid #e67e00;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
 }
