@@ -1,46 +1,45 @@
+/* Main Header */
 .h1, h1 {
     font-family: "Georgia", Times, serif;
     color: #e67e00;
     font-size: 80px;
 }
-
+/* Latest Mars News, Featured Mars Image, Mars Facts, Mars Hemispheres */
 h2 {
     font-family: "Georgia", Times, serif;
     font-weight: bold;
 }
-
+/* Latest Mars News Title */
 h4 {
     font-family: "Georgia", Times, serif;
     font-weight: bold;
     margin-bottom: 10px;
 }
-
+/* Latest Mars News Paragraph */
 p {
     font-family: "Georgia", Times, serif;
     margin-bottom: 30px; 
 }
-
-.img-with-text {
+/* Featured Image Column */
+.col-lg-7,.col-md-12 {
+    padding-bottom: 20px;
+}
+/* Hemispheres Columns */
+.col-lg-3 {
+    padding: 10px;
+}
+/* Title below Hemispheres Images */
+.col-lg-3 p {
     font-family: "Georgia", Times, serif;
+    font-size: 15px;
     text-align: center;
     text-decoration: underline;
-    width: 250px;
-    margin: 10px;
-}
-
-.img-with-text img {
-    display: block; 
-    margin: 0 auto;  
 }
 
 .select:hover {
     border-style: solid;
     border-color: #e67e00;
     border-width: thick;
-}
-
-.container {
-    margin-bottom: 30px;
 }
 
 table {
