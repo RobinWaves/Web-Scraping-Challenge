@@ -17,3 +17,5 @@ This assignment builds a web application that scrapes various websites for data 
 ### Usage:
 
 Run app.py in your terminal.  Click on the local host link or copy and paste into your browser.  On the html page, click on the Scrape New Data button to scrape and view new data.
+***
+![Screenshot](Mission to Mars.png)
